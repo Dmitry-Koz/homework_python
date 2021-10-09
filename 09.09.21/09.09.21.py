@@ -84,7 +84,7 @@ def pro_generate(numb = 4):
 
         for j in range(0,3):
 
-            fio += chr(randrange(65,97))
+            fio += chr(randrange(65,90))
             name = ['' + chr(randrange(97,122)) for k in range(randrange(3,7)) ] #different characters
             fio += ''.join(name) #determine the number of characters
 
